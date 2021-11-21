@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProtoBUnitTesting": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

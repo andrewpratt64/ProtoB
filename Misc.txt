@@ -1,0 +1,7 @@
+- Doc comment styles vary in each project, might want to make them all the same format at some point
+- To allow strings currently stored as a char array with constant length to have a variable length, some
+	system for allocating/destroying/resizing/moving basic unmanaged arrays needs to be implemented, similar
+	to how std::vector or std::string in c++ works
+- (FROM OLDER CODE, CONSIDER REMOVING THIS BULLET POINT) Null-terminated strings in the model portion of C#
+	that are stored as char*, although most of them point to IMMUTABLE DATA so don't mutate the string they
+	point to

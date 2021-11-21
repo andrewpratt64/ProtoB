@@ -1,0 +1,3 @@
+- Visual Studio won't bother generating a .dll file if a c++ project has no .cpp files
+- In C#, if a class implements IDisposable, you MUST explicitly call Dispose(), it's not done for you
+	- You can optionally implement Finalize() or a destructor to account for cases where Dispose is never called, this might have more overhead though

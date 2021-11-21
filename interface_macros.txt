@@ -1,0 +1,18 @@
+/// Define if dll item declarations can be implemented with Microsoft's __declspec() extension
+#define PROTO_B_CPP_CAN_USE_MICROSOFT_DLL_IO
+
+
+
+// Determine how importing and exporting declarations to and from this dll should be implemented
+#if defined PROTO_B_CPP_CAN_USE_MICROSOFT_DLL_IO
+
+// Use __declspec if available
+#define DLLI __declspec(dllimport)
+#define DLLO __declspec(dllexport)
+
+#else
+// Else, throw an error since we don't know what to do
+#error Can't decide on implementation for DLLI and DLLO
+#endif
+
+#pragma endregion

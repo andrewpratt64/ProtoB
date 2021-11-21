@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_8hpp" kind="file" language="C++">
+    <compoundname>interface.hpp</compoundname>
+    <includes local="no">cstdint</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>interface.hpp</label>
+        <link refid="interface_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="interface_8hpp_1a96b839f717133e7b38a267e5b69a7af3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__declspec</definition>
+        <argsstring>(dllexport) int32_t unittest_BasicTest(const int32_t num)</argsstring>
+        <name>__declspec</name>
+        <param>
+          <type>dllexport</type>
+        </param>
+        <briefdescription>
+<para>Basic function to make sure the dll is working as expected. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arbitrary number to be doubled </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The product of num and two </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface.hpp" line="15" column="1" bodyfile="interface.hpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains the dll interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andrew Pratt </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="interface.hpp"/>
+  </compounddef>
+</doxygen>

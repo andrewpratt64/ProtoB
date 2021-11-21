@@ -1,0 +1,29 @@
+/// <summary>Enumerator for the root node of a SubentityTree</summary>
+        /// <remarks>There will only ever be one node to iterate. This class exists so that a </remarks>
+        public class SubentityTreeRootNodeEnumerator : IEnumerator
+        {
+            private bool _done = false;
+
+            public SubentityTreeNode Root;
+
+            public object Current => Root;
+
+            public bool MoveNext()
+            {
+                if (_done)
+                    return false;
+
+                return (_done = true);
+            }
+
+            public void Reset()
+            {
+                _done = false;
+            }
+
+
+            public SubentityTreeRootNodeEnumerator(SubentityTreeNode SingleRoot)
+            {
+                Root = SingleRoot;
+            }
+        }

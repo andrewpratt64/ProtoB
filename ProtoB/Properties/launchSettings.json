@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProtoB": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
