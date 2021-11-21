@@ -1,5 +1,7 @@
 Work-in-progress "Prototype B" of RPKG TOOL
 
+>>> Open with Visual Studio 2019 <<<
+
 Some code here is unfinished and/or dosen't entirely reflect the final version of the program
 
 The "ProtoBCodeGen" project isn't currently used, I'm most likely deleting it later
